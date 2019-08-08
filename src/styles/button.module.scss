@@ -1,0 +1,16 @@
+@import './palette.scss';
+
+.custom-button {
+    background-color: $selective-yellow;
+    border: none;
+    outline: none;
+    color: $lawn-green;
+}
+
+.custom-button:active {
+    color: $lawn-green-dark;
+}
+
+.custom-button:hover {
+    cursor: pointer;
+}

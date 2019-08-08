@@ -1,0 +1,10 @@
+@import './palette.scss';
+
+.title {
+    text-align: center;
+    font-size: 3em;
+    color: $azure;
+    span {
+        color: $red-purple;
+    }
+}

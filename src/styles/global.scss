@@ -1,0 +1,11 @@
+@import './palette.scss';
+@import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap');
+
+body {
+    background-color: $selective-yellow;
+    font-family: 'Saira Stencil One', cursive;
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+}

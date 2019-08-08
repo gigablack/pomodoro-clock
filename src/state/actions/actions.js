@@ -1,0 +1,7 @@
+module.exports = {
+    ADD_ONE: 'ADD_ONE',
+    SUB_ONE: 'SUB_ONE',
+    SUB_SECOND: 'SUB_SECOND',
+    TOGGLE_PLAY: 'TOGGLE_PLAY',
+    RESET_CLOCK:'RESET_CLOCK'
+}

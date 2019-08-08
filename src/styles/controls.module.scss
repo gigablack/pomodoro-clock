@@ -1,0 +1,25 @@
+@import './palette.scss';
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    h2 {
+        color: $azure;
+        font-size: 2.5rem;
+        span {
+            color: $red-purple;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        order: 1;
+        flex-direction: column;
+        align-items: center;
+        flex-flow: column-reverse;
+        h2 {
+            order: 1;
+        }
+    }
+}

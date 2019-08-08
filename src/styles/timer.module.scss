@@ -1,0 +1,16 @@
+@import './palette.scss';
+
+.container {
+    p {
+        font-size: 4em;
+        margin: 0px;
+    }
+}
+
+.time-up {
+    color: $red-purple;
+}
+
+.time-running {
+    color: $azure;
+}
