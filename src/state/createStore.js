@@ -3,12 +3,12 @@ import reducer from './reducer'
 
 
 const state = {
-    breakLength: 1,
-    sessionLength: 1,
+    breakLength: 5,
+    sessionLength: 25,
     play: false,
     sessionTime: true,
     timer: {
-        minutes: 1,
+        minutes: 25,
         seconds: 0
     }
 }
