@@ -7,9 +7,16 @@ class Timer extends Component {
     constructor(props){
         super(props)
         this.state = {
-            synth: new Tone.Synth().toMaster()
+            synth: null
         }
     }
+
+    componentDidMount(){
+        this.setState({
+            synth: new Tone.Synth().toMaster()
+        })
+    }
+
     render(){
         const {timer:{minutes,seconds}} = this.props
         const {synth} = this.state
