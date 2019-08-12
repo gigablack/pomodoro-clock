@@ -10,7 +10,6 @@ const HomePage = () => {
         <main>
             <Helmet>
                 <title>Pomodoro</title>
-                <script src="https://kit.fontawesome.com/b12372e360.js"></script>
             </Helmet>
             <Header />
             <Controls />
